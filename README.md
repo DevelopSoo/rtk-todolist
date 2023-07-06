@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Redux Toolkit 으로 투두리스트 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 기능
 
-## Available Scripts
+**필수 기능**
 
-In the project directory, you can run:
+1. 할 일 리스트 조회 기능
+2. 할 일 리스트 추가 기능
+3. 할 일 리스트 삭제 기능
+4. 할 일 리스트 완료, 취소 기능
+5. 할 일 리스트 수정 기능
 
-### `npm start`
+**선택 기능**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 할 일 리스트 댓글 조회 기능
+2. 할 일 리스트 댓글 추가 기능
+3. 할 일 리스트 댓글 삭제 기능
+4. 할 일 리스트 댓글 수정 기능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 진행
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. 실제 데이터 없이 UI만 만들기 (하드코딩)
+2. 하드코딩된 데이터를 실제 데이터로 바꾸기 (useState)
+3. 어떤 데이터를 state로 관리할지 고민하기
+4. input 창 입력 시 input value state 감지하도록하기
+5. 추가하기 버튼 클릭 시 input에 입력한 데이터를 todo state에 추가하기
+6. 삭제하기 버튼 클릭 시 해당 데이터를 삭제하기
+7. 완료, 취소 클릭 시 이동하도록 만들기
+8. 수정하기 버튼 클릭 시 해당 데이터 수정할 수 있게 모달창 띄우기 or 페이지 이동하기
+9. 수정 후 버튼 클릭 시 수정된 상태가 보이게 하기
+10. redux toolkit 세팅하기
+11. useState를 redux toolkit으로 변경하기
